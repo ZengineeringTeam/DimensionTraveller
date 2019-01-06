@@ -21,19 +21,19 @@ public class TeleportTypeTwilightForest implements ITeleportType
     @Override
     public Vector3 getPlayerSpawnLocation(WorldServer world, EntityPlayerMP player)
     {
-        return new Vector3(0, 900, 0);
+        return new Vector3(0, 300, 0);
     }
 
     @Override
     public Vector3 getEntitySpawnLocation(WorldServer world, Entity entity)
     {
-        return new Vector3(-2, 900, -2);
+        return new Vector3(-2, 300, -2);
     }
 
     @Override
     public Vector3 getParaChestSpawnLocation(WorldServer world, EntityPlayerMP player, Random rand)
     {
-        return new Vector3(2, 900, 2);
+        return new Vector3(2, 300, 2);
     }
 
     @Override

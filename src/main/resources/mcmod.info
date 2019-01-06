@@ -1,0 +1,9 @@
+[
+{
+  "modid": "dimtravel",
+  "name": "Dimension Traveller",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "authorList": ["Snownee"]
+}
+]

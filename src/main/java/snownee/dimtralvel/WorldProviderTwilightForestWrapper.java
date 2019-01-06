@@ -32,13 +32,13 @@ public class WorldProviderTwilightForestWrapper extends WorldProviderTwilightFor
     @Override
     public double getMeteorFrequency()
     {
-        return 1;
+        return 0;
     }
 
     @Override
     public double getFuelUsageMultiplier()
     {
-        return 1;
+        return 0.8F;
     }
 
     @Override
@@ -50,7 +50,7 @@ public class WorldProviderTwilightForestWrapper extends WorldProviderTwilightFor
     @Override
     public float getFallDamageModifier()
     {
-        return 1;
+        return 0.6F;
     }
 
     @Override

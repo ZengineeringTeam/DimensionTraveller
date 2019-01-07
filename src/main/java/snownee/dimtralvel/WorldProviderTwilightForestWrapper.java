@@ -7,6 +7,7 @@ import micdoodle8.mods.galacticraft.api.galaxies.CelestialBody;
 import micdoodle8.mods.galacticraft.api.world.EnumAtmosphericGas;
 import micdoodle8.mods.galacticraft.api.world.IGalacticraftWorldProvider;
 import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
 import net.minecraft.util.ResourceLocation;
 import twilightforest.world.WorldProviderTwilightForest;
 
@@ -134,7 +135,7 @@ public class WorldProviderTwilightForestWrapper extends WorldProviderTwilightFor
     @Override
     public List<Block> getSurfaceBlocks()
     {
-        return Collections.EMPTY_LIST;
+        return Collections.singletonList(Blocks.GRASS);
     }
 
 }
